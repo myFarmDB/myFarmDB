@@ -1,0 +1,12 @@
+HELP:
+
+To save to the repo, run the following commands:
+make sure the repo has been added by running this:
+
+git remote add origin git@github.com:myFarmDB/myFarmDB.git
+
+then run this to push it onto github:
+
+git push origin master
+
+and you'll have to enter your password
