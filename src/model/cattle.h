@@ -28,12 +28,12 @@ class Cattle : public Entity
 		/**
 		 * Empty Constructor
 		 */
-		Cattle ( );
+		Cattle();
 
 		/**
 		 * Empty Destructor
 		 */
-		virtual ~Cattle ( );
+		virtual ~Cattle();
 
 		// Private attribute accessor methods
 		//  
@@ -43,90 +43,90 @@ class Cattle : public Entity
 		 * Set the value of gender
 		 * \param new_var the new value of gender
 		 */
-		void setGender ( Gender * new_var );
+		void setGender(Gender * new_var);
 
 		/**
 		 * Get the value of gender
 		 * \return the value of gender
 		 */
-		Gender * getGender ( );
+		Gender * getGender();
 
 
 		/**
 		 * Set the value of horn
 		 * \param new_var the new value of horn
 		 */
-		void setHorn ( Horn * new_var );
+		void setHorn(Horn * new_var);
 
 		/**
 		 * Get the value of horn
 		 * \return the value of horn
 		 */
-		Horn * getHorn ( );
+		Horn * getHorn();
 
 
 		/**
 		 * Set the value of colour
 		 * \param new_var the new value of colour
 		 */
-		void setColour ( Colour * new_var );
+		void setColour(Colour * new_var);
 
 		/**
 		 * Get the value of colour
 		 * \return the value of colour
 		 */
-		Colour * getColour ( );
+		Colour * getColour();
 
 		/**
 		 * Set the value of mother
 		 * \param new_var the new value of mother
 		 */
-		void setMother ( CattleType new_var );
+		void setMother(const CattleType new_var);
 
 		/**
 		 * Get the value of mother
 		 * \return the value of mother
 		 */
-		CattleType getMother ( );
+		CattleType getMother();
 
 
 		/**
 		 * Set the value of father
 		 * \param new_var the new value of father
 		 */
-		void setFather ( CattleType new_var );
+		void setFather(const CattleType new_var);
 
 		/**
 		 * Get the value of father
 		 * \return the value of father
 		 */
-		CattleType getFather ( );
+		CattleType getFather();
 
 
 		/**
 		 * Set the value of tagNumber
 		 * \param new_var the new value of tagNumber
 		 */
-		void setTagNumber ( string new_var );
+		void setTagNumber(const string new_var);
 
 		/**
 		 * Get the value of tagNumber
 		 * \return the value of tagNumber
 		 */
-		string getTagNumber ( );
+		string getTagNumber();
 
 
 		/**
 		 * Set the value of NLSTag
 		 * \param new_var the new value of NLSTag
 		 */
-		void setNLSTag ( string new_var );
+		void setNLSTag(const string new_var);
 
 		/**
 		 * Get the value of NLSTag
 		 * \return the value of NLSTag
 		 */
-		string getNLSTag ( );
+		string getNLSTag();
 };
 
 #endif // CATTLE_H

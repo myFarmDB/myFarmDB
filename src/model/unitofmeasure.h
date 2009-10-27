@@ -34,101 +34,101 @@ class UnitOfMeasure
 		/**
 		 * Empty Constructor
 		 */
-		UnitOfMeasure ( );
+		UnitOfMeasure();
 
 		/**
 		 * Empty Destructor
 		 */
-		virtual ~UnitOfMeasure ( );
+		virtual ~UnitOfMeasure();
 		/**
 		 * Set the value of unitOfMeasureID
 		 * \param new_var the new value of unitOfMeasureID
 		 */
-		void setUnitOfMeasureID ( int new_var );
+		void setUnitOfMeasureID(const int new_var);
 
 		/**
 		 * Get the value of unitOfMeasureID
 		 * \return the value of unitOfMeasureID
 		 */
-		int getUnitOfMeasureID ( );
+		int getUnitOfMeasureID();
 
 
 		/**
 		 * Set the value of module
 		 * \param new_var the new value of module
 		 */
-		void setModule ( Module * new_var );
+		void setModule(Module * new_var);
 
 		/**
 		 * Get the value of module
 		 * \return the value of module
 		 */
-		Module * getModule ( );
+		Module * getModule();
 
 
 		/**
 		 * Set the value of shortName
 		 * \param new_var the new value of shortName
 		 */
-		void setShortName ( string new_var );
+		void setShortName(const string new_var);
 
 		/**
 		 * Get the value of shortName
 		 * \return the value of shortName
 		 */
-		string getShortName ( );
+		string getShortName();
 
 
 		/**
 		 * Set the value of name
 		 * \param new_var the new value of name
 		 */
-		void setName ( string new_var );
+		void setName(const string new_var);
 
 		/**
 		 * Get the value of name
 		 * \return the value of name
 		 */
-		string getName ( );
+		string getName();
 
 
 		/**
 		 * Set the value of minValue
 		 * \param new_var the new value of minValue
 		 */
-		void setMinValue ( double new_var );
+		void setMinValue(const double new_var);
 
 		/**
 		 * Get the value of minValue
 		 * \return the value of minValue
 		 */
-		double getMinValue ( );
+		double getMinValue();
 
 
 		/**
 		 * Set the value of maxValue
 		 * \param new_var the new value of maxValue
 		 */
-		void setMaxValue ( double new_var );
+		void setMaxValue(const double new_var);
 
 		/**
 		 * Get the value of maxValue
 		 * \return the value of maxValue
 		 */
-		double getMaxValue ( );
+		double getMaxValue();
 
 
 		/**
 		 * Set the value of show
 		 * \param new_var the new value of show
 		 */
-		void setShow ( bool new_var );
+		void setShow(const bool new_var);
 
 		/**
 		 * Get the value of show
 		 * \return the value of show
 		 */
-		bool getShow ( );
+		bool getShow();
 
 };
 

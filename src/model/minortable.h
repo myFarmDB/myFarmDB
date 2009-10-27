@@ -22,59 +22,59 @@ class MinorTable
 		/**
 		 * Empty Constructor
 		 */
-		MinorTable ( );
+		MinorTable();
 
 		/**
 		 * Empty Destructor
 		 */
-		virtual ~MinorTable ( );
+		virtual ~MinorTable();
 		/**
 		 * Set the value of minorID
 		 * \param new_var the new value of minorID
 		 */
-		void setMinorID ( int new_var );
+		void setMinorID(const int new_var);
 
 		/**
 		 * Get the value of minorID
 		 * \return the value of minorID
 		 */
-		int getMinorID ( );
+		int getMinorID();
 
 		/**
 		 * Set the value of module
 		 * \param new_var the new value of module
 		 */
-		void setModule ( Module * new_var );
+		void setModule(Module * new_var);
 
 		/**
 		 * Get the value of module
 		 * \return the value of module
 		 */
-		Module * getModule ( );
+		Module * getModule();
 
 		/**
 		 * Set the value of name
 		 * \param new_var the new value of name
 		 */
-		void setName ( string new_var );
+		void setName(const string new_var);
 
 		/**
 		 * Get the value of name
 		 * \return the value of name
 		 */
-		string getName ( );
+		string getName();
 
 		/**
 		 * Set the value of show
 		 * \param new_var the new value of show
 		 */
-		void setShow ( bool new_var );
+		void setShow(const bool new_var);
 
 		/**
 		 * Get the value of show
 		 * \return the value of show
 		 */
-		bool getShow ( );
+		bool getShow();
 };
 
 typedef MinorTable Horn, Gender, Colour;

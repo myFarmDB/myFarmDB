@@ -35,127 +35,127 @@ class Module
 		/**
 		 * Empty Constructor
 		 */
-		Module ( );
+		Module();
 
 		/**
 		 * Empty Destructor
 		 */
-		virtual ~Module ( );
+		virtual ~Module();
 		/**
 		 * Set the value of moduleID
 		 * \param new_var the new value of moduleID
 		 */
-		void setModuleID ( int new_var );
+		void setModuleID(const int new_var);
 
 		/**
 		 * Get the value of moduleID
 		 * \return the value of moduleID
 		 */
-		int getModuleID ( );
+		int getModuleID();
 
 
 		/**
 		 * Set the value of shortName
 		 * \param new_var the new value of shortName
 		 */
-		void setShortName ( string new_var );
+		void setShortName(const string new_var);
 
 		/**
 		 * Get the value of shortName
 		 * \return the value of shortName
 		 */
-		string getShortName ( );
+		string getShortName();
 
 
 		/**
 		 * Set the value of name
 		 * \param new_var the new value of name
 		 */
-		void setName ( string new_var );
+		void setName(const string new_var);
 
 		/**
 		 * Get the value of name
 		 * \return the value of name
 		 */
-		string getName ( );
+		string getName();
 
 
 		/**
 		 * Set the value of description
 		 * \param new_var the new value of description
 		 */
-		void setDescription ( string new_var );
+		void setDescription(const string new_var);
 
 		/**
 		 * Get the value of description
 		 * \return the value of description
 		 */
-		string getDescription ( );
+		string getDescription();
 
 
 		/**
 		 * Set the value of imagePath
 		 * \param new_var the new value of imagePath
 		 */
-		void setImagePath ( string new_var );
+		void setImagePath(const string new_var);
 
 		/**
 		 * Get the value of imagePath
 		 * \return the value of imagePath
 		 */
-		string getImagePath ( );
+		string getImagePath();
 
 
 		/**
 		 * Set the value of singularEntityName
 		 * \param new_var the new value of singularEntityName
 		 */
-		void setSingularEntityName ( string new_var );
+		void setSingularEntityName(const string new_var);
 
 		/**
 		 * Get the value of singularEntityName
 		 * \return the value of singularEntityName
 		 */
-		string getSingularEntityName ( );
+		string getSingularEntityName();
 
 
 		/**
 		 * Set the value of pluralEntityName
 		 * \param new_var the new value of pluralEntityName
 		 */
-		void setPluralEntityName ( string new_var );
+		void setPluralEntityName(const string new_var);
 
 		/**
 		 * Get the value of pluralEntityName
 		 * \return the value of pluralEntityName
 		 */
-		string getPluralEntityName ( );
+		string getPluralEntityName();
 
 
 		/**
 		 * Set the value of versionNumber
 		 * \param new_var the new value of versionNumber
 		 */
-		void setVersionNumber ( string new_var );
+		void setVersionNumber(const string new_var);
 
 		/**
 		 * Get the value of versionNumber
 		 * \return the value of versionNumber
 		 */
-		string getVersionNumber ( );
+		string getVersionNumber();
 
 
 		/**
 		 * Set the value of show
 		 * \param new_var the new value of show
 		 */
-		void setShow ( bool new_var );
+		void setShow(const bool new_var);
 
 		/**
 		 * Get the value of show
 		 * \return the value of show
 		 */
-		bool getShow ( );
+		bool getShow();
 };
 
 #endif // MODULE_H

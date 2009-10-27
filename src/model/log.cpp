@@ -6,80 +6,100 @@ using std::vector;
 // Constructors/Destructors
 //  
 
-Log::Log ( ) {
+Log::Log()
+{
 }
 
-Log::~Log ( ) { }
+Log::~Log()
+{ }
 
-void Log::setLogID ( int new_var ) {
+void Log::setLogID(const int new_var)
+{
 			logID = new_var;
 }
 
-int Log::getLogID ( ) {
+int Log::getLogID()
+{
 			return logID;
 }
 
-void Log::setModules ( vector<Module> new_var ) {
+void Log::setModules(const vector<Module> new_var)
+{
 			modules = new_var;
 }
 
-vector<Module> Log::getModules ( ) {
+vector<Module> Log::getModules()
+{
 			return modules;
 }
 
-void Log::setShortName ( string new_var ) {
+void Log::setShortName(const string new_var)
+{
 			shortName = new_var;
 }
 
-string Log::getShortName ( ) {
+string Log::getShortName()
+{
 			return shortName;
 }
 
-void Log::setName ( string new_var ) {
+void Log::setName(const string new_var)
+{
 			name = new_var;
 }
 
-string Log::getName ( ) {
+string Log::getName()
+{
 			return name;
 }
 
-void Log::setDescription ( string new_var ) {
+void Log::setDescription(const string new_var)
+{
 			description = new_var;
 }
 
-string Log::getDescription ( ) {
+string Log::getDescription()
+{
 			return description;
 }
 
-void Log::setImagePath ( string new_var ) {
+void Log::setImagePath(const string new_var)
+{
 			imagePath = new_var;
 }
 
-string Log::getImagePath ( ) {
+string Log::getImagePath()
+{
 			return imagePath;
 }
 
-void Log::setStartDate ( string new_var ) {
+void Log::setStartDate(const string new_var)
+{
 			startDate = new_var;
 }
 
-string Log::getStartDate ( ) {
+string Log::getStartDate()
+{
 			return startDate;
 }
 
-void Log::setEndDate ( string new_var ) {
+void Log::setEndDate(const string new_var)
+{
 			endDate = new_var;
 }
 
-string Log::getEndDate ( ) {
+string Log::getEndDate()
+{
 			return endDate;
 }
 
-void Log::setShow ( bool new_var ) {
+void Log::setShow(const bool new_var)
+{
 			show = new_var;
 }
 
-bool Log::getShow ( ) {
+bool Log::getShow()
+{
 			return show;
 }
 

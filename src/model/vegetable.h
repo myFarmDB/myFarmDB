@@ -23,49 +23,49 @@ class Vegetable : public Entity
 		/**
 		 * Empty Constructor
 		 */
-		Vegetable ( );
+		Vegetable();
 
 		/**
 		 * Empty Destructor
 		 */
-		virtual ~Vegetable ( );
+		virtual ~Vegetable();
 		/**
 		 * Set the value of unitOfMeasure
 		 * \param new_var the new value of unitOfMeasure
 		 */
-		void setUnitOfMeasure ( UnitOfMeasure * new_var );
+		void setUnitOfMeasure(UnitOfMeasure * new_var);
 
 		/**
 		 * Get the value of unitOfMeasure
 		 * \return the value of unitOfMeasure
 		 */
-		UnitOfMeasure * getUnitOfMeasure ( );
+		UnitOfMeasure * getUnitOfMeasure();
 
 
 		/**
 		 * Set the value of maxValue
 		 * \param new_var the new value of maxValue
 		 */
-		void setMaxValue ( int new_var );
+		void setMaxValue(const int new_var);
 
 		/**
 		 * Get the value of maxValue
 		 * \return the value of maxValue
 		 */
-		int getMaxValue ( );
+		int getMaxValue();
 
 
 		/**
 		 * Set the value of minValue
 		 * \param new_var the new value of minValue
 		 */
-		void setMinValue ( int new_var );
+		void setMinValue(const int new_var);
 
 		/**
 		 * Get the value of minValue
 		 * \return the value of minValue
 		 */
-		int getMinValue ( );
+		int getMinValue();
 
 };
 

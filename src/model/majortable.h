@@ -32,88 +32,88 @@ class MajorTable
 		/**
 		 * Empty Constructor
 		 */
-		MajorTable ( );
+		MajorTable();
 
 		/**
 		 * Empty Destructor
 		 */
-		virtual ~MajorTable ( );
+		virtual ~MajorTable();
 		/**
 		 * Set the value of mjrID
 		 * \param new_var the new value of mjrID
 		 */
-		void setMjrID ( int new_var );
+		void setMjrID(const int new_var);
 
 		/**
 		 * Get the value of mjrID
 		 * \return the value of mjrID
 		 */
-		int getMjrID ( );
+		int getMjrID();
 
 
 		/**
 		 * Set the value of module
 		 * \param new_var the new value of module
 		 */
-		void setModule ( Module * new_var );
+		void setModule(Module * new_var);
 
 		/**
 		 * Get the value of module
 		 * \return the value of module
 		 */
-		Module * getModule ( );
+		Module * getModule();
 
 
 		/**
 		 * Set the value of name
 		 * \param new_var the new value of name
 		 */
-		void setName ( string new_var );
+		void setName(const string new_var);
 
 		/**
 		 * Get the value of name
 		 * \return the value of name
 		 */
-		string getName ( );
+		string getName();
 
 
 		/**
 		 * Set the value of description
 		 * \param new_var the new value of description
 		 */
-		void setDescription ( string new_var );
+		void setDescription(const string new_var);
 
 		/**
 		 * Get the value of description
 		 * \return the value of description
 		 */
-		string getDescription ( );
+		string getDescription();
 
 
 		/**
 		 * Set the value of imagePath
 		 * \param new_var the new value of imagePath
 		 */
-		void setImagePath ( string new_var );
+		void setImagePath(const string new_var);
 
 		/**
 		 * Get the value of imagePath
 		 * \return the value of imagePath
 		 */
-		string getImagePath ( );
+		string getImagePath();
 
 
 		/**
 		 * Set the value of show
 		 * \param new_var the new value of show
 		 */
-		void setShow ( bool new_var );
+		void setShow(const bool new_var);
 
 		/**
 		 * Get the value of show
 		 * \return the value of show
 		 */
-		bool getShow ( );
+		bool getShow();
 
 };
 

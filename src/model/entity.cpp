@@ -6,87 +6,109 @@
 // Constructors/Destructors
 //  
 
-Entity::Entity ( ) {
+Entity::Entity()
+{
 }
 
-Entity::~Entity ( ) { }
+Entity::~Entity()
+{ }
 
-void Entity::setEntityID ( int new_var ) {
+void Entity::setEntityID(const int new_var)
+{
 			entityID = new_var;
 }
 
-int Entity::getEntityID ( ) {
+int Entity::getEntityID()
+{
 			return entityID;
 }
 
-void Entity::setModule ( Module * new_var ) {
+void Entity::setModule(Module * new_var)
+{
 			module = new_var;
 }
 
-Module * Entity::getModule ( ) {
+Module * Entity::getModule()
+{
 			return module;
 }
 
-void Entity::setName ( string new_var ) {
+void Entity::setName(const string new_var)
+{
 			name = new_var;
 }
 
-string Entity::getName ( ) {
+string Entity::getName()
+{
 			return name;
 }
 
-void Entity::setDescription ( string new_var ) {
+void Entity::setDescription(const string new_var)
+{
 			description = new_var;
 }
 
-string Entity::getDescription ( ) {
+string Entity::getDescription()
+{
 			return description;
 }
 
-void Entity::setImagePath ( string new_var ) {
+void Entity::setImagePath(const string new_var)
+{
 			imagePath = new_var;
 }
 
-string Entity::getImagePath ( ) {
+string Entity::getImagePath()
+{
 			return imagePath;
 }
 
-void Entity::setVariety ( Variety * new_var ) {
+void Entity::setVariety(Variety * new_var)
+{
 			variety = new_var;
 }
 
-Variety * Entity::getVariety ( ) {
+Variety * Entity::getVariety()
+{
 			return variety;
 }
 
-void Entity::setLocation ( Location * new_var ) {
+void Entity::setLocation(Location * new_var)
+{
 			location = new_var;
 }
 
-Location * Entity::getLocation ( ) {
+Location * Entity::getLocation()
+{
 			return location;
 }
 
-void Entity::setSource ( Source * new_var ) {
+void Entity::setSource(Source * new_var)
+{
 			source = new_var;
 }
 
-Source * Entity::getSource ( ) {
+Source * Entity::getSource()
+{
 			return source;
 }
 
-void Entity::setEvents ( vector<Event> new_var ) {
+void Entity::setEvents (const vector<Event> new_var)
+{
 			events = new_var;
 }
 
-vector<Event> Entity::getEvents ( ) {
+vector<Event> Entity::getEvents()
+{
 			return events;
 }
 
-void Entity::setShow ( bool new_var ) {
+void Entity::setShow(bool new_var)
+{
 			show = new_var;
 }
 
-bool Entity::getShow ( ) {
+bool Entity::getShow()
+{
 			return show;
 }

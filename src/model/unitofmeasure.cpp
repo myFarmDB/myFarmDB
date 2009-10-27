@@ -7,63 +7,79 @@
 // Constructors/Destructors
 //  
 
-UnitOfMeasure::UnitOfMeasure ( ) {
+UnitOfMeasure::UnitOfMeasure()
+{
 }
 
-UnitOfMeasure::~UnitOfMeasure ( ) { }
+UnitOfMeasure::~UnitOfMeasure()
+{ }
 
-void UnitOfMeasure::setUnitOfMeasureID ( int new_var ) {
+void UnitOfMeasure::setUnitOfMeasureID(const int new_var)
+{
 			unitOfMeasureID = new_var;
 }
 
-int UnitOfMeasure::getUnitOfMeasureID ( ) {
+int UnitOfMeasure::getUnitOfMeasureID()
+{
 			return unitOfMeasureID;
 }
 
-void UnitOfMeasure::setModule ( Module * new_var ) {
+void UnitOfMeasure::setModule(Module * new_var)
+{
 			module = new_var;
 }
 
-Module * UnitOfMeasure::getModule ( ) {
+Module * UnitOfMeasure::getModule()
+{
 			return module;
 }
 
-void UnitOfMeasure::setShortName ( string new_var ) {
+void UnitOfMeasure::setShortName(const string new_var)
+{
 			shortName = new_var;
 }
 
-string UnitOfMeasure::getShortName ( ) {
+string UnitOfMeasure::getShortName()
+{
 			return shortName;
 }
 
-void UnitOfMeasure::setName ( string new_var ) {
+void UnitOfMeasure::setName(const string new_var)
+{
 			name = new_var;
 }
 
-string UnitOfMeasure::getName ( ) {
+string UnitOfMeasure::getName()
+{
 			return name;
 }
 
-void UnitOfMeasure::setMinValue ( double new_var ) {
+void UnitOfMeasure::setMinValue(const double new_var)
+{
 			minValue = new_var;
 }
 
-double UnitOfMeasure::getMinValue ( ) {
+double UnitOfMeasure::getMinValue()
+{
 			return minValue;
 }
 
-void UnitOfMeasure::setMaxValue ( double new_var ) {
+void UnitOfMeasure::setMaxValue(const double new_var)
+{
 			maxValue = new_var;
 }
 
-double UnitOfMeasure::getMaxValue ( ) {
+double UnitOfMeasure::getMaxValue()
+{
 			return maxValue;
 }
 
-void UnitOfMeasure::setShow ( bool new_var ) {
+void UnitOfMeasure::setShow(const bool new_var)
+{
 			show = new_var;
 }
 
-bool UnitOfMeasure::getShow ( ) {
+bool UnitOfMeasure::getShow()
+{
 			return show;
 }
