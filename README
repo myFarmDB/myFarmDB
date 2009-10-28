@@ -1,7 +1,9 @@
 HELP:
 
-To save to the repo, run the following commands:
-make sure the repo has been added by running this:
+To SAVE (PUSH) to the repository(repo), run the following commands:
+make sure the repo has been added on your computer
+by going to applications/terminal and running this:
+(which will create like a shortcut to the github)
 
 git remote add origin git@github.com:myFarmDB/myFarmDB.git
 
@@ -10,3 +12,6 @@ then run this to push it onto github:
 git push origin master
 
 and you'll have to enter your password
+
+To DOWNLOAD (PULL) the repository from the github to your computer:
+
