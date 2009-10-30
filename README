@@ -16,6 +16,18 @@ If you want to download the version of the project from the repository and merge
 	
 	git pull git@github.com:myFarmDB/myFarmDB.git
 
-If you want to get a totally fresh copy, go to an empty directory, and issue this command:
+If you want to get a totally fresh copy, go to an empty directory, and issue these commands:
 
-	git fetch git@github.com:myFarmDB/myFarmDB.git myFarmDB
+	git init
+	git remote add online ssh://git@github.com/myFarmDB/myFarmDB.git
+	git fetch online
+
+	And you will have to run this:
+
+	git branch -r
+
+	to find out what branch you want to use. It will most probably be the one that makes sense (online/master) So you then run this:
+
+	git checkout online/master
+
+	and there you go!
