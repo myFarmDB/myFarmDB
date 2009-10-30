@@ -19,12 +19,12 @@ int Activity::getActivityID()
 			return activityID;
 }
 
-void Activity::setModule(Module * new_var)
+void Activity::setModule(Module new_var)
 {
 			module = new_var;
 }
 
-Module * Activity::getModule()
+Module Activity::getModule()
 {
 			return module;
 }

@@ -24,12 +24,12 @@ int UnitOfMeasure::getUnitOfMeasureID()
 			return unitOfMeasureID;
 }
 
-void UnitOfMeasure::setModule(Module * new_var)
+void UnitOfMeasure::setModule(Module new_var)
 {
 			module = new_var;
 }
 
-Module * UnitOfMeasure::getModule()
+Module UnitOfMeasure::getModule()
 {
 			return module;
 }

@@ -11,32 +11,32 @@ Cattle::Cattle()
 Cattle::~Cattle()
 { }
 
-void Cattle::setGender(Gender * new_var)
+void Cattle::setGender(Gender new_var)
 {
 			gender = new_var;
 }
 
-Gender * Cattle::getGender()
+Gender Cattle::getGender()
 {
 			return gender;
 }
 
-void Cattle::setHorn(Horn * new_var)
+void Cattle::setHorn(Horn new_var)
 {
 			horn = new_var;
 }
 
-Horn * Cattle::getHorn()
+Horn Cattle::getHorn()
 {
 			return horn;
 }
 
-void Cattle::setColour(Colour * new_var)
+void Cattle::setColour(Colour new_var)
 {
 			colour = new_var;
 }
 
-Colour * Cattle::getColour()
+Colour Cattle::getColour()
 {
 			return colour;
 }

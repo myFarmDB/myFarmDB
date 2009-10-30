@@ -22,12 +22,12 @@ int MajorTable::getMjrID()
 			return mjrID;
 }
 
-void MajorTable::setModule(Module * new_var)
+void MajorTable::setModule(Module new_var)
 {
 			module = new_var;
 }
 
-Module * MajorTable::getModule()
+Module MajorTable::getModule()
 {
 			return module;
 }

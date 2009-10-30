@@ -23,12 +23,12 @@ int Entity::getEntityID()
 			return entityID;
 }
 
-void Entity::setModule(Module * new_var)
+void Entity::setModule(Module new_var)
 {
 			module = new_var;
 }
 
-Module * Entity::getModule()
+Module Entity::getModule()
 {
 			return module;
 }
@@ -63,32 +63,32 @@ string Entity::getImagePath()
 			return imagePath;
 }
 
-void Entity::setVariety(Variety * new_var)
+void Entity::setVariety(Variety new_var)
 {
 			variety = new_var;
 }
 
-Variety * Entity::getVariety()
+Variety Entity::getVariety()
 {
 			return variety;
 }
 
-void Entity::setLocation(Location * new_var)
+void Entity::setLocation(Location new_var)
 {
 			location = new_var;
 }
 
-Location * Entity::getLocation()
+Location Entity::getLocation()
 {
 			return location;
 }
 
-void Entity::setSource(Source * new_var)
+void Entity::setSource(Source new_var)
 {
 			source = new_var;
 }
 
-Source * Entity::getSource()
+Source Entity::getSource()
 {
 			return source;
 }

@@ -13,157 +13,157 @@ using std::vector;
 #include "event.h"
 
 /**
- * class Entity
- * 
+ class Entity
+ 
  */
 
 class Entity
 {
 	private:
 		int entityID;
-		Module * module;
+		Module module;
 		string name;
 		string description;
 		string imagePath;
-		Variety * variety;
-		Location * location;
-		Source * source;
+		Variety variety;
+		Location location;
+		Source source;
 		vector<Event> events;
 		bool show;
 	public:
 		/**
-		 * Empty Constructor
+		 Empty Constructor
 		 */
 		Entity ();
 
 		/**
-		 * Empty Destructor
+		 Empty Destructor
 		 */
 		virtual ~Entity ();
 		/**
-		 * Set the value of entityID
-		 * \param new_var the new value of entityID
+		 Set the value of entityID
+		 \param new_var the new value of entityID
 		 */
 		void setEntityID(const int new_var);
 
 		/**
-		 * Get the value of entityID
-		 * \return the value of entityID
+		 Get the value of entityID
+		 \return the value of entityID
 		 */
 		int getEntityID ();
 
 
 		/**
-		 * Set the value of module
-		 * \param new_var the new value of module
+		 Set the value of module
+		 \param new_var the new value of module
 		 */
-		void setModule(Module * new_var);
+		void setModule(Module new_var);
 
 		/**
-		 * Get the value of module
-		 * \return the value of module
+		 Get the value of module
+		 \return the value of module
 		 */
-		Module * getModule ();
+		Module getModule ();
 
 
 		/**
-		 * Set the value of name
-		 * \param new_var the new value of name
+		 Set the value of name
+		 \param new_var the new value of name
 		 */
 		void setName(const string new_var);
 
 		/**
-		 * Get the value of name
-		 * \return the value of name
+		 Get the value of name
+		 \return the value of name
 		 */
 		string getName ();
 
 
 		/**
-		 * Set the value of description
-		 * \param new_var the new value of description
+		 Set the value of description
+		 \param new_var the new value of description
 		 */
 		void setDescription(const string new_var);
 
 		/**
-		 * Get the value of description
-		 * \return the value of description
+		 Get the value of description
+		 \return the value of description
 		 */
 		string getDescription ();
 
 
 		/**
-		 * Set the value of imagePath
-		 * \param new_var the new value of imagePath
+		 Set the value of imagePath
+		 \param new_var the new value of imagePath
 		 */
 		void setImagePath(const string new_var);
 
 		/**
-		 * Get the value of imagePath
-		 * \return the value of imagePath
+		 Get the value of imagePath
+		 \return the value of imagePath
 		 */
 		string getImagePath ();
 
 
 		/**
-		 * Set the value of variety
-		 * \param new_var the new value of variety
+		 Set the value of variety
+		 \param new_var the new value of variety
 		 */
-		void setVariety(Variety * new_var);
+		void setVariety(Variety new_var);
 
 		/**
-		 * Get the value of variety
-		 * \return the value of variety
+		 Get the value of variety
+		 \return the value of variety
 		 */
-		Variety * getVariety ();
-
-
-		/**
-		 * Set the value of location
-		 * \param new_var the new value of location
-		 */
-		void setLocation(Location * new_var);
-
-		/**
-		 * Get the value of location
-		 * \return the value of location
-		 */
-		Location * getLocation ();
+		Variety getVariety ();
 
 
 		/**
-		 * Set the value of source
-		 * \param new_var the new value of source
+		 Set the value of location
+		 \param new_var the new value of location
 		 */
-		void setSource(Source * new_var);
+		void setLocation(Location new_var);
 
 		/**
-		 * Get the value of source
-		 * \return the value of source
+		 Get the value of location
+		 \return the value of location
 		 */
-		Source * getSource ();
+		Location getLocation ();
+
 
 		/**
-		 * Set the value of events
-		 * \param new_var the new value of events
+		 Set the value of source
+		 \param new_var the new value of source
+		 */
+		void setSource(Source new_var);
+
+		/**
+		 Get the value of source
+		 \return the value of source
+		 */
+		Source getSource ();
+
+		/**
+		 Set the value of events
+		 \param new_var the new value of events
 		 */
 		void setEvents(const vector<Event> new_var);
 
 		/**
-		 * Get the value of events
-		 * \return the value of events
+		 Get the value of events
+		 \return the value of events
 		 */
 		vector<Event> getEvents ();
 
 		/**
-		 * Set the value of show
-		 * \param new_var the new value of show
+		 Set the value of show
+		 \param new_var the new value of show
 		 */
 		void setShow(const bool new_var);
 
 		/**
-		 * Get the value of show
-		 * \return the value of show
+		 Get the value of show
+		 \return the value of show
 		 */
 		bool getShow ();
 };

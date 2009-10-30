@@ -12,12 +12,12 @@ Vegetable::Vegetable()
 Vegetable::~Vegetable()
 { }
 
-void Vegetable::setUnitOfMeasure(UnitOfMeasure * new_var)
+void Vegetable::setUnitOfMeasure(UnitOfMeasure new_var)
 {
 			unitOfMeasure = new_var;
 }
 
-UnitOfMeasure * Vegetable::getUnitOfMeasure()
+UnitOfMeasure Vegetable::getUnitOfMeasure()
 {
 			return unitOfMeasure;
 }

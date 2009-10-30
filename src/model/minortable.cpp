@@ -22,12 +22,12 @@ int MinorTable::getMinorID()
 			return minorID;
 }
 
-void MinorTable::setModule(Module * new_var)
+void MinorTable::setModule(Module new_var)
 {
 			module = new_var;
 }
 
-Module * MinorTable::getModule()
+Module MinorTable::getModule()
 {
 			return module;
 }

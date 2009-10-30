@@ -19,3 +19,5 @@ views:
 clean : 
 	rm -f *.o
 	make -C model clean
+	make -C controller clean
+	make -C view clean

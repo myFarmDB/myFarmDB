@@ -7,72 +7,72 @@ using std::string;
 
 #include "module.h"
 /**
- * class MinorTable
- * 
+ class MinorTable
+ 
  */
 
 class MinorTable
 {
 	private:
 		int minorID;
-		Module * module;
+		Module module;
 		string name;
 		bool show;
 	public:
 		/**
-		 * Empty Constructor
+		 Empty Constructor
 		 */
 		MinorTable();
 
 		/**
-		 * Empty Destructor
+		 Empty Destructor
 		 */
 		virtual ~MinorTable();
 		/**
-		 * Set the value of minorID
-		 * \param new_var the new value of minorID
+		 Set the value of minorID
+		 \param new_var the new value of minorID
 		 */
 		void setMinorID(const int new_var);
 
 		/**
-		 * Get the value of minorID
-		 * \return the value of minorID
+		 Get the value of minorID
+		 \return the value of minorID
 		 */
 		int getMinorID();
 
 		/**
-		 * Set the value of module
-		 * \param new_var the new value of module
+		 Set the value of module
+		 \param new_var the new value of module
 		 */
-		void setModule(Module * new_var);
+		void setModule(Module new_var);
 
 		/**
-		 * Get the value of module
-		 * \return the value of module
+		 Get the value of module
+		 \return the value of module
 		 */
-		Module * getModule();
+		Module getModule();
 
 		/**
-		 * Set the value of name
-		 * \param new_var the new value of name
+		 Set the value of name
+		 \param new_var the new value of name
 		 */
 		void setName(const string new_var);
 
 		/**
-		 * Get the value of name
-		 * \return the value of name
+		 Get the value of name
+		 \return the value of name
 		 */
 		string getName();
 
 		/**
-		 * Set the value of show
-		 * \param new_var the new value of show
+		 Set the value of show
+		 \param new_var the new value of show
 		 */
 		void setShow(const bool new_var);
 
 		/**
-		 * Get the value of show
-		 * \return the value of show
+		 Get the value of show
+		 \return the value of show
 		 */
 		bool getShow();
 };

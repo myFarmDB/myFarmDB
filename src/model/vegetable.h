@@ -9,61 +9,61 @@ using std::string;
 #include "unitofmeasure.h"
 
 /**
- * class Vegetable
- * 
+ class Vegetable
+ 
  */
 
 class Vegetable : public Entity
 {
 	private:
-		UnitOfMeasure * unitOfMeasure;
+		UnitOfMeasure unitOfMeasure;
 		int maxValue;
 		int minValue;
 	public:
 		/**
-		 * Empty Constructor
+		 Empty Constructor
 		 */
 		Vegetable();
 
 		/**
-		 * Empty Destructor
+		 Empty Destructor
 		 */
 		virtual ~Vegetable();
 		/**
-		 * Set the value of unitOfMeasure
-		 * \param new_var the new value of unitOfMeasure
+		 Set the value of unitOfMeasure
+		 \param new_var the new value of unitOfMeasure
 		 */
-		void setUnitOfMeasure(UnitOfMeasure * new_var);
+		void setUnitOfMeasure(UnitOfMeasure new_var);
 
 		/**
-		 * Get the value of unitOfMeasure
-		 * \return the value of unitOfMeasure
+		 Get the value of unitOfMeasure
+		 \return the value of unitOfMeasure
 		 */
-		UnitOfMeasure * getUnitOfMeasure();
+		UnitOfMeasure getUnitOfMeasure();
 
 
 		/**
-		 * Set the value of maxValue
-		 * \param new_var the new value of maxValue
+		 Set the value of maxValue
+		 \param new_var the new value of maxValue
 		 */
 		void setMaxValue(const int new_var);
 
 		/**
-		 * Get the value of maxValue
-		 * \return the value of maxValue
+		 Get the value of maxValue
+		 \return the value of maxValue
 		 */
 		int getMaxValue();
 
 
 		/**
-		 * Set the value of minValue
-		 * \param new_var the new value of minValue
+		 Set the value of minValue
+		 \param new_var the new value of minValue
 		 */
 		void setMinValue(const int new_var);
 
 		/**
-		 * Get the value of minValue
-		 * \return the value of minValue
+		 Get the value of minValue
+		 \return the value of minValue
 		 */
 		int getMinValue();
 

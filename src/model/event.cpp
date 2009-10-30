@@ -23,52 +23,52 @@ int Event::getEventID()
 			return eventID;
 }
 
-void Event::setModule(Module * new_var)
+void Event::setModule(Module new_var)
 {
 			module = new_var;
 }
 
-Module * Event::getModule()
+Module Event::getModule()
 {
 			return module;
 }
 
-void Event::setLog(Log * new_var)
+void Event::setLog(Log new_var)
 {
 			log = new_var;
 }
 
-Log * Event::getLog()
+Log Event::getLog()
 {
 			return log;
 }
 
-void Event::setActivity(Activity * new_var)
+void Event::setActivity(Activity new_var)
 {
 			activity = new_var;
 }
 
-Activity * Event::getActivity()
+Activity Event::getActivity()
 {
 			return activity;
 }
 
-void Event::setLocation(Location * new_var)
+void Event::setLocation(Location new_var)
 {
 			location = new_var;
 }
 
-Location * Event::getLocation()
+Location Event::getLocation()
 {
 			return location;
 }
 
-void Event::setUnitOfMeasure(UnitOfMeasure * new_var)
+void Event::setUnitOfMeasure(UnitOfMeasure new_var)
 {
 			unitOfMeasure = new_var;
 }
 
-UnitOfMeasure * Event::getUnitOfMeasure()
+UnitOfMeasure Event::getUnitOfMeasure()
 {
 			return unitOfMeasure;
 }
